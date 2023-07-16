@@ -72,3 +72,25 @@ Block elementler, sayfada bölümleri, başlıkları, paragrafları, listeleri v
 
 
 Bu elementler, belirli bir yapı veya düzen oluşturmak, içeriği gruplamak veya biçimlendirmek için kullanılır.
+
+
+
+
+*************************************************
+
+RULESET:
+
+.container{
+    padding:20px
+}
+
+
+. --> class secicisini isaretler. class yapicisi
+container --> CSS deki selector classlarindan bir tanesi
+padding:20px --> decleration
+padding --> property
+20px --> value
+
+* universal selector bir HTML belgesindeki tüm elementleri seçer. 
+Yani, evrensel seçiciyi kullanarak tanımladığınız stiller HTML belgesindeki tüm elementlere uygulanır.
+
