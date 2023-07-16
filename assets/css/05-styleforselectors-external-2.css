@@ -1,0 +1,20 @@
+*{
+color: blue;
+}
+
+.highlight{
+    font-size: 1.5rem;
+    color: cadetblue;
+}
+.center{
+    text-align: center;
+}
+
+#p1{
+    color: blue;
+}
+
+span.maiores_corrupti{
+    color: chocolate;
+    font-size: 2rem;
+}
