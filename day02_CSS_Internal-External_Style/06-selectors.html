@@ -12,7 +12,7 @@
     </style>
   </head>
   <body>
-    <h1 class="title colour active" style="color: brown;">HELLO WORLD</h1>
+    <h1 class="title colour active" style="color: brown">HELLO WORLD</h1>
 
     <!--  CSS'de bir element için çelişen stil kuralları varsa, tarayıcılar genellikle
     özelleştirme düzeyine (id, sınıf, veya element tipi), stil kuralının
@@ -25,6 +25,14 @@
     48, 192) olacaktır. Bu, diğer seçicilerin belirttiği renklerden bağımsız
     olarak geçerlidir. -->
 
-    <!-- specificity e bagli olarak hangi property code yakinsa o baskindir  -->
+    <!-- specificity e bagli olarak hangi declaration code yakinsa o baskindir  -->
+
+    <!-- Aynı element üzerine etki eden ve elementin aynı özelliğini değiştirmeye
+    çalışan birden fazla seçici olması durumunda tarayıcı aşağıdaki kural
+    sırasına göre hareket eder. 
+    important ifadesine sahip tanımlama her zaman diğerlerini ezer 
+    Inline seçiciler her zaman diğerlerini ezer 
+    Hedefi en detaylı şekilde tanımlayan seçici diğerlerini ezer 
+    Eğer seçici tanımları aynı ise, hedefe en yakın olan seçici diğerlerini ezer -->
   </body>
 </html>
