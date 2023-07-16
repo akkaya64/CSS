@@ -1,0 +1,74 @@
+style --> attribute
+="
+color: --> property
+ chocolate --> value
+
+
+
+ 1 rem --> 16 px
+ px sabit bir degerdir
+ rem 
+
+ Inline elementler, HTML'de metin veya içerik parçalarını içermek veya belirli bir şekilde biçimlendirmek için kullanılan 
+ etiketlerdir. Inline elementler, içerdikleri içeriği satır içinde yerleştirir ve otomatik olarak yeni bir satır başlatmaz. 
+ Bu elementler, metin akışının içine yerleştirilebilir ve genellikle içeriklerini saran blok elementlerin içinde bulunurlar.
+
+İşte bazı yaygın inline elementlerin örnekleri:
+
+<span>: Belirli bir metin parçasını veya içeriği gruplamak veya stil vermek için kullanılır.
+<a>: Bir bağlantı (link) oluşturmak için kullanılır.
+<strong> veya <b>: Metin veya içeriği kalın olarak biçimlendirmek için kullanılır.
+<em> veya <i>: Metin veya içeriği italik olarak biçimlendirmek için kullanılır.
+<u>: Metin veya içeriği altı çizili olarak biçimlendirmek için kullanılır.
+<s> veya <strike>: Metin veya içeriği üstü çizili olarak biçimlendirmek için kullanılır.
+<code>: Metin veya içeriği kod veya monospace fontu ile biçimlendirmek için kullanılır.
+<img>: Bir resmi veya görüntüyü eklemek için kullanılır.
+<br>: Bir satır boşluğu eklemek için kullanılır.
+<input>: Bir giriş alanı oluşturmak için kullanılır.
+<select>: Bir seçim kutusu oluşturmak için kullanılır.
+<textarea>: Bir metin alanı oluşturmak için kullanılır.
+<label>: Bir form elemanı ile ilişkili bir etiket oluşturmak için kullanılır.
+<button>: Bir düğme oluşturmak için kullanılır.
+<strong> veya <b>: Metin veya içeriği kalın olarak biçimlendirmek için kullanılır.
+<em> veya <i>: Metin veya içeriği italik olarak biçimlendirmek için kullanılır.
+<u>: Metin veya içeriği altı çizili olarak biçimlendirmek için kullanılır.
+<s> veya <strike>: Metin veya içeriği üstü çizili olarak biçimlendirmek için kullanılır.
+<code>: Metin veya içeriği kod veya monospace fontu ile biçimlendirmek için kullanılır.
+<sup>: Metin veya içeriği üst simge olarak biçimlendirmek için kullanılır.
+<sub>: Metin veya içeriği alt simge olarak biçimlendirmek için kullanılır.
+
+
+Block elementler, HTML'de içerdikleri içeriği blok düzende gösteren ve genellikle yeni bir satırda başlayan elementlerdir. 
+Bu elementler, kendilerinden önce ve sonra otomatik olarak birer satır boşluğu bırakır ve genellikle belirli bir genişliği kaplar. 
+Block elementler, sayfada bölümleri, başlıkları, paragrafları, listeleri ve diğer yapısal bileşenleri oluşturmak için kullanılır.
+
+İşte bazı yaygın block elementlerin örnekleri:
+
+<div>: Genel amaçlı bir blok elementidir ve içeriği gruplamak veya stil vermek için kullanılır.
+<p>: Bir paragraf oluşturmak için kullanılır.
+<h1> - <h6>: Başlıkları temsil eder. <h1> en büyük başlığı temsil ederken, <h6> en küçük başlığı temsil eder.
+<ul>: Sırasız (noktalı) liste oluşturmak için kullanılır.
+<ol>: Sıralı (numaralı) liste oluşturmak için kullanılır.
+<li>: Liste öğesini temsil eder.
+<table>: Bir tablo oluşturmak için kullanılır.
+<tr>: Bir tablo satırını temsil eder.
+<td>: Bir tablo hücresini temsil eder.
+<header>: Bir belge veya bölüm başlığını temsil eder.
+<footer>: Bir belge veya bölüm alt bilgisini temsil eder.
+<article>: Bağımsız bir içerik parçasını temsil eder.
+<section>: Belge veya sayfa içindeki bölümleri veya bölüm gruplarını temsil eder.
+<nav>: Bir navigasyon menüsünü temsil eder.
+<aside>: Bir belgenin ana içeriğinden bağımsız olarak yan içeriği temsil eder.
+<figure>: Bir resim, grafik veya diğer ortam öğesini temsil eder.
+<figcaption>: <figure> elementiyle ilişkili bir açıklama veya başlık metnini temsil eder.
+<blockquote>: Alıntı yapılan bir metin parçasını temsil eder.
+<cite>: Bir alıntının kaynağını temsil eder.
+<address>: İletişim bilgilerini temsil eder (adres, telefon, e-posta vb.).
+<hr>: Bir yatay çizgi (ayraç) oluşturur.
+<main>: Belge veya sayfadaki ana içeriği temsil eder.
+<form>: Bir form oluşturmak için kullanılır.
+<fieldset>: Bir formdaki ilgili grupları temsil eder.
+<legend>: <fieldset> elementiyle ilişkili bir açıklama veya başlık metnini temsil eder.
+
+
+Bu elementler, belirli bir yapı veya düzen oluşturmak, içeriği gruplamak veya biçimlendirmek için kullanılır.
