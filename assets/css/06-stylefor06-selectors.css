@@ -1,0 +1,17 @@
+h1.title{color: black;}
+
+.title{
+color: blue;
+}
+
+h1{color: rgb(171, 11, 11)!important;}
+
+*{color: brown;}
+
+h1.title.colour{
+    color: cadetblue;
+}
+
+h1.title.colour.active{
+    color: rgb(173, 48, 192);
+}
