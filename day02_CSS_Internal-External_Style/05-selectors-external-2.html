@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selectors-external</title>
+    <link
+      rel="stylesheet"
+      href="../assets/css/05-styleforselectors-external-2.css"
+    />
+  </head>
+  <body>
+    <!-- .: Bu işaret bir sınıf seçicisini belirtir. Bir sınıf seçicisi, belirli bir
+    sınıf adıyla (. işaretinden hemen sonra gelen ad) eşleşen tüm HTML
+    elementlerini seçer. Aynı sınıf adı, bir HTML belgesinde birden çok kez
+    kullanılabilir, bu yüzden bir sınıf seçicisi birden çok elementi
+    etkileyebilir. Ayrıca, bir HTML elementi birden fazla sınıfa sahip olabilir.
+ -->
+    <!-- h1.centre -->
+    <h1 class="center">CSS SELECTORS</h1>
+
+    <!-- p.highlight>lorem -->
+    <p class="highlight">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ratione,
+      unde suscipit numquam soluta voluptates cupiditate odio ipsam at deleniti
+      exercitationem perferendis natus tenetur laboriosam, quae ex
+      necessitatibus sequi esse.
+    </p>
+
+    <!-- #p1>lorem -->
+    <div id="p1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ullam
+      eveniet adipisci ipsam deleniti officiis architecto quibusdam voluptatem!
+      Maiores temporibus alias aperiam eveniet rerum fugit quisquam consequatur
+      dolores facilis sequi!
+    </div>
+    <!-- #: Bu işaret bir id seçicisini belirtir. Bir id seçicisi, belirli bir id ile
+    ( # işaretinden hemen sonra gelen ad) eşleşen tek bir HTML elementini seçer.
+    Bir id, bir HTML belgesinde yalnızca bir kez kullanılabilir, bu yüzden bir
+    id seçicisi yalnızca bir elementi etkileyebilir. -->
+
+    <!-- Genel olarak, bir sınıf seçicisi (.), bir stilin birden çok elemente
+    uygulanması gerektiğinde kullanılırken, bir id seçicisi (#), bir stilin
+    yalnızca bir elemente uygulanması gerektiğinde kullanılır. -->
+
+    <!-- p.p2>lorem -->
+    <p class="p2">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
+      necessitatibus sequi laboriosam, <span class="maiores_corrupti">maiores corrupti</span> fuga atque iure id optio
+      quae, omnis laudantium mollitia, vel voluptatum quam at. Quasi, voluptates
+      saepe?
+    </p>
+  </body>
+</html>
