@@ -1,3 +1,20 @@
 /* 
 bu bir comment satiridir
  */
+
+
+ nav.nav{
+    
+    color: black;
+    text-align: center;
+    
+ }
+ div{
+    background-color: lightgray;
+    padding: 1.5rem;
+    
+}
+ div.active{
+    background-color: black;
+    color: white;
+ }
