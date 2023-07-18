@@ -1,0 +1,9 @@
+body{background-color: crimson;}
+ul.list li{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    list-style-image: url(../img/Untitled.png);
+    /* list-style-type: "🤲 "; */
+    list-style-position: inside;
+    line-height: 2rem;
+}
