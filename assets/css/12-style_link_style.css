@@ -1,0 +1,29 @@
+body{background-color:crimson;}
+a{
+    color: cadetblue;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: chocolate;
+    color: wheat;
+    font-size: 1.2rem;
+}
+
+a:active{
+    color: aquamarine;
+}
+h1.title:hover{
+color: coral;
+background-color: aquamarine;
+}
+
+ul li{
+    list-style:none;
+}
