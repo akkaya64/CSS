@@ -11,3 +11,15 @@ div.box2{
     padding: 3rem 8rem 1rem 8rem;
     font-size: 1.5rem;
 }
+
+em{
+    margin: 2rem;
+}
+
+b{
+    background-color: brown;
+    /* margin: 5rem; */
+    
+}
+
+/* inline lementler dikeyde marginhg ve padding almazlar sadece yatayda alirlar */
