@@ -1,0 +1,40 @@
+body{
+    background-color: crimson;
+}
+.box1{
+    background-color:burlywood;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.box2{
+    background-color: crimson;
+}
+
+.box3{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.box4{
+    background-color: rgb(164, 206, 121);
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box5{
+    background-color: cadetblue;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.box6{
+    background-color: chocolate;
+    width: 200px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* default olarak sola yaslar */
