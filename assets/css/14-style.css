@@ -1,0 +1,39 @@
+body{
+    height: 100%;
+    background-color: crimson;
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+}
+
+div.box1{
+    background-color:cadetblue;
+    width:5cm;
+    height: 40%;
+}
+
+div.box2{
+    background-color:rgb(42, 165, 114);
+    width: 40%;
+    height: 50%;
+}
+
+div.box3{
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    font-size: 3rem;
+}
+
+div.box4{
+    color: antiquewhite;
+    background-color: rgb(30, 27, 65);
+    width: 5opx;
+    height: 50px;
+}
+div.box5{
+
+    color: antiquewhite;
+    background-color: rgb(66, 59, 8);
+    width: 49.3vw;
+    height: 40vh;
+}
