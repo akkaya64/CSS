@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form & Validation Practice</title>
+  </head>
+  <body>
+    <h1>
+      <strong>Form & Validation</strong>
+    </h1>
+    <form method="post" action="users/update">
+      <table>
+        <thead>
+            <tr>
+              <th colspan="4">Kişisel Bilgiler</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td><label for="Name">Adı</label></td>
+                <td><input type="text" name="Name" /></td>
+                <td rowspan="2"><label for="Hobi">Hobiler</label></td>
+              <td rowspan="2">
+                <input type="checkbox" id="futbol" />
+                <label for="futbol">Futbol</label><br>
+                <input type="checkbox" id="voleybol" />
+                <label for="voleybol">Voleybol</label><br>
+                <input type="checkbox" id="basketbol" />
+                <label for="basketbol">Futbol</label><br>
+            </tr>
+            <tr>
+              <td><label for="Surname">Soyadı</label></td>
+              <td><input type="text" name="Surname" /></td>
+               
+            
+            </td>
+            </tr>
+            <tr>
+              <td><label for="Gender">Cinsiyet</label></td>
+              <td>
+                <input type="radio" name="Gender" id="cinsiyetE" />
+                <label for="cinsiyetE">Erkek</label>
+                <input type="radio" name="Gender" id="cinsiyetK" />
+                <label for="cinsiyetK">Kadın</label>
+              </td>
+              <td rowspan="2"><label for="prfoto">Profil<br> Fotoğrafı</label></td>
+              <td rowspan="2"><input type="file" id="prfoto"></td>
+            </tr>
+            <tr>
+              <td><label for="ilce">İlçeler</label></td>
+              <td>
+                <select name="ilce">
+                  <option value="seciniz" disabled selected>Seçiniz</option>
+                  <option value="Altındağ">Altındağ</option>
+                  <option value="Çankaya">Çankaya</option>
+                  <option value="Keçiören">Keçiören</option>
+                  <option value="Mamak">Mamak</option>
+                </select>
+              </td>
+              
+            </tr>
+            <tr>
+              <td> <label for="email">Email</label></td>
+              <td> <input type="email" id="email" placeholder="example@email.com"></td>
+              <td><label for="birthday">Doğum<br>Tarihi</label></td>
+              <td><input type="date" id="birthdate"></td>
+            </tr>
+            <tr>
+              <td><label for="pweb">Kişisel Site</label></td>
+              <td><input type="text" id="pweb" placeholder="www.example.com"></td>
+              <td rowspan="2"><label for="adres">Adres</label></td>
+              <td rowspan="2"><textarea name="" id="adres" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+              <td><label for="phone">Telefon</label></td>
+              <td><input type="tel" id="phone"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><button type="submit">Kayıt ol</button></td>
+            </tr>
+            
+          </tbody>
+        
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,277 @@
+body {
+  /* background-color: crimson; */
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+header.hdr {
+  background-color: rgb(91, 68, 68);
+  text-align: center;
+  padding: 1rem;
+  font-size: small;
+  margin-bottom: -48px;
+}
+
+.hdr a {
+  color: aliceblue;
+  padding: 16‹›px;
+  margin: 10px;
+}
+
+.hdr a:hover {
+  color: crimson;
+}
+
+.hdr img {
+  width: 20px;
+  height: 16px;
+}
+/* ******************************* */
+
+body main{
+  text-align: center;
+  font-size: 2rem;
+  background-color: coral;
+}
+main section{
+  margin-top: -50px;
+}
+main section.section1{
+  background-color: #12716B;
+}
+
+main section.section2{
+  background-color:   rgb(26, 38, 56);
+}
+
+main section.section3{
+  background-color:rgb(115, 14, 34);
+}
+
+main section h2{
+  font-size: 3.6rem;
+  padding-top: 5rem;
+  color:rgb(232, 232, 223)
+}
+
+main section div.highlight{
+  margin-bottom: 3rem;
+  color: rgb(103, 135, 182);
+}
+
+
+
+main section div.linking_info_shop a{
+  padding: 0rem 3rem ;
+  color:rgb(187, 115, 8);
+  font-size: 1.4rem;
+
+}
+
+main section div.linking_info_shop a:hover{
+  text-decoration: underline;
+}
+
+main section p.date{
+  color: rgb(90, 135, 202);
+}
+
+main section.section3 h2 img{
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+main section div img{
+  margin-top: 5rem;
+}
+
+main section.section3 div.series{
+  color: #CB1D33;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  font-size: 1.2rem;
+  margin-top: -62px;
+  margin-bottom: 3rem;
+}
+
+/* ********hoca******** */
+
+/* main section{
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  background-color: rgb(36, 35, 35);
+  color: white;
+}
+main section.iphone14{
+  background-color: white;
+  color: black;
+}
+main section h2{
+  font-size: 3.6rem;
+  margin-top: 0;
+  margin-bottom: -25px;
+}
+main section p{
+  font-size: 2rem;
+  color: rgb(109, 104, 104);
+}
+main section p.satis-tarihi{
+  font-size: 1.5rem;
+  color: rgb(141, 136, 136);
+}
+main section p.linkler{
+  font-size: 1.4rem;
+  margin-bottom: 65px;
+}
+main section p.linkler a{
+  margin-right: 25px;
+}
+main section.watch h2 img{
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+main section.watch .series{
+font-size: 1.4rem;
+letter-spacing: 0.5rem;
+color:#B72436;
+text-transform: uppercase;
+} */
+
+/* ******************************************* */
+
+
+/* 
+.section1 {
+  text-align: center;
+  background-color: #12716B;
+}
+
+.section1 a:hover{
+text-decoration: underline;
+}
+
+div.iphone {
+  padding-top: 3rem;
+  padding-bottom: 0.3rem;
+  font-weight: 500;
+  font-size: 2.8rem;
+  color: rgb(26, 38, 56);
+}
+div.pil {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(38, 43, 52);
+}
+div.boyut {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(180, 197, 67);
+}
+section.section1 a {
+  padding: 2rem;
+  color: rgb(26, 38, 56);
+}
+p.date {
+  color: rgb(51, 52, 52);
+}
+div.sari {
+  width: 500px;
+  padding-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* ******************************* */
+/* .section2 {
+  background-color:   rgb(26, 38, 56);
+  text-align: center;
+}
+
+div.iphone14 {
+  padding-top: 3rem;
+  padding-bottom: 0.3rem;
+  font-weight: 500;
+  font-size: 2.8rem;
+  color:antiquewhite;
+}
+div.dahapro {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color:antiquewhite;
+  margin-bottom: 1rem;
+}
+
+div.apro a:hover{
+    text-decoration: underline;
+}
+
+section.section2 div.apro a{
+  padding: 2rem;
+  color:rgb(172, 37, 199);
+}
+p.date {
+  color: rgb(51, 52, 52);
+}
+div.pros {
+ 
+  padding-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+} */
+/* ******************************* */
+/* .section3 { */
+/* margin-top: 1rem; */
+/* background-color:rgb(115, 14, 34);
+  text-align: center;
+}
+
+div span.logowatch img{
+    width: 2.5rem;
+}
+
+div.watch {
+  padding-top: 3rem; */
+/* background-color: #12716B; */
+
+/* }
+
+div.watch span.watchtitle{
+color: antiquewhite;
+font-weight: 500;
+font-size: 3rem;
+
+}
+div.series{
+    color: crimson;
+    font-size: small;
+    margin: 0;
+    margin-top: -0.5rem;
+    letter-spacing: .1rem;
+}
+div.gelecek {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color:antiquewhite;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+div.watcha a:hover{
+    text-decoration: underline;
+}
+section.section3 div.watcha a{
+  padding: 2rem;
+  color:crimson;
+}
+p.date {
+  color: rgb(51, 52, 52);
+}
+div.watchimg {
+  padding-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+} */
