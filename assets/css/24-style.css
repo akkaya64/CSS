@@ -1,0 +1,26 @@
+.menu{
+    display: inline-block;
+    /* background-color: crimson; */
+  
+}
+
+nav.menu ul{
+ list-style-type: none;
+ margin: 0;
+ padding-left: 1rem;
+ display: none;
+ 
+}
+
+nav.menu button{
+    display: block;
+}
+
+nav.menu:hover ul{
+    display:inline-block;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: crimson;
+}
