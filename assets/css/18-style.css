@@ -65,7 +65,8 @@ main section div.highlight{
 
 
 main section div.linking_info_shop a{
-  padding: 0rem 3rem ;
+ 
+  padding: 0rem 2rem ;
   color:rgb(187, 115, 8);
   font-size: 1.4rem;
 
@@ -93,6 +94,7 @@ main section.section3 div.series{
   text-transform: uppercase;
   letter-spacing: .5rem;
   font-size: 1.2rem;
+  margin-left: 1.3rem;
   margin-top: -62px;
   margin-bottom: 3rem;
 }
