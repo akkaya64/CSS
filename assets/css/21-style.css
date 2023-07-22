@@ -1,0 +1,17 @@
+:root{
+    --color1:red;
+    --color2:purple;
+    --background-color:green;
+    --ortala:center;
+
+}
+
+h1{
+    color: var(--color1);
+    text-align: var(--ortala);
+}
+
+.el{
+    background-color: var(--background-color);
+    color: var(--color2);
+}

@@ -1,0 +1,33 @@
+:root{
+    --color1:white;
+    --color2:aqua;
+    --color3:green;
+    --color4:black;
+    --center:centre;
+}
+h1{
+    background-color: var(--color3);
+    display:inline-block;
+    text-transform: uppercase;
+    color: var(--color2);
+    padding: 2rem;
+   
+}
+
+span.span{
+    background-color: var(--color3);
+    display: block;
+    height: 5rem;
+
+    
+}
+
+em.em{
+    display: inline-block;
+    background-color: var(--color3);
+
+}
+div.div{
+    background-color: var(--color2);
+    display: none;
+}

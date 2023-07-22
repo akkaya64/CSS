@@ -1,0 +1,25 @@
+div.box1{
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+div.box2{
+    color:cyan;
+    background-color: cadetblue;
+    padding: 3rem 8rem 1rem 8rem;
+    font-size: 1.5rem;
+}
+
+em{
+    margin: 2rem;
+}
+
+b{
+    background-color: brown;
+    /* margin: 5rem; */
+    
+}
+
+/* inline lementler dikeyde marginhg ve padding almazlar sadece yatayda alirlar */
