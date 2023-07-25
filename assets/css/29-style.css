@@ -1,0 +1,22 @@
+input.chkmode{
+    display: none;
+}
+
+input.chkmode:checked+ .content{
+    background-color:crimson;
+    color: antiquewhite;
+}
+
+label.chkmode{
+    display: inline-block;
+    background-color:crimson ;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1.5rem .25rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}

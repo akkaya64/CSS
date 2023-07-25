@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    width: 100%;
+  }
+
+:root{
+    --color1:rgb(70, 25, 89);
+    --color2:rgb(122, 49, 111);
+    --color3:rgb(205, 102, 136);
+    --color4:rgb(174, 216, 204);
+    --color5:rgb(78, 78, 196);
+}
+
+body{
+    margin: 1rem;
+    background-color: var(--color1);
+}
+
+td{
+ text-align: left;
+ vertical-align: top;
+ padding-right: 1.1rem;
+ color: var(--color3);
+}
+
+td div{
+    color: var(--color4);
+}
+
+td p.link a{
+    text-decoration: none;
+    color: var(--color5);
+}
+
+p.link a:hover::after{
+    content: "►";
+    font-size: 0.7rem;
+    margin-left: .5rem;
+    visibility: visible;
+}

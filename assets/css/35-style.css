@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100vh;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  
+}
+.box1 {
+  background-color: crimson;
+  flex: 2 0 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 1rem;
+}
+.box1-1{
+    display: flex;
+    background-color: rgb(211, 82, 8);
+    flex: 1;
+    justify-content: center;
+}
+.box1-2{
+    display: flex;
+    flex: 3;
+    background-color: rgb(124, 11, 79);
+}
+.box2 {
+  background-color: darkkhaki;
+  flex: 1 0 150px;
+}
+.box3 {
+  background-color: darkcyan;
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 1rem;
+}
+.box3 > div{
+    background-color: rgb(19, 125, 102);
+    flex: 0 0 45;
+    padding: 4.97rem 5.6rem;
+}
