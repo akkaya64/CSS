@@ -1,0 +1,23 @@
+
+
+.border-1{
+    border: 3px dashed red;
+}
+
+.border-2{
+    border-left: 23px groove red;
+    border-top: 13px double blue;
+    padding: 1rem;
+}
+.border-3{
+   border: 22px outset peru;
+}
+.border-4{
+   border: 22px inset peru;
+   border-radius: 20px 10px 0 35px;
+   -webkit-border-radius: 20px 10px 0 35px;
+   -moz-border-radius: 20px 10px 0 35px;
+   -ms-border-radius: 20px 10px 0 35px;
+   -o-border-radius: 20px 10px 0 35px;
+   text-align: center;
+}
