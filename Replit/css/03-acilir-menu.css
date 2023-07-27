@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #aa076b, #61045f);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100%;
+}
+
+.main-container label i {
+  font-size: 120px;
+  cursor: pointer;
+  color: #8B1874;
+}
+label{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-bottom: 200px;
+}
+#logo{
+  display: none;
+  flex: 0 0 300;
+}
+
+#abc {
+  display: none;
+  flex-direction: row;
+  
+}
+
+ #logo:checked ~ #abc {
+  display: flex;
+}
+
+#abc a {
+  display: flex;
+  width: 150px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+
+/* £abc a:first-child{
+  width: 150px;
+  height: 75px;
+  border-top-right-radius: 20px;
+} */
+
+
+.menu-container a:first-child {
+  color: #5a7776;
+}
+.menu-container a:nth-child(2) {
+ color:#B71375;
+}
+.menu-container a:nth-child(3) {
+  color: #FC4F00;
+}
+.menu-container a:nth-child(4) {
+  color: #F79540;
+}
+.menu-container a:last-child {
+  color: #D989B5;
+}
+
+#abc a:nth-child(1):hover{
+  background-color: #B71375;
+  color: #FAC213;
+}
+#abc a:nth-child(2):hover{
+  background-color: #FC4F00;
+  color: #FAC213;
+}
+#abc a:nth-child(3):hover{
+  background-color: #F79540;
+  color: #FAC213;
+}
+#abc a:nth-child(4):hover{
+  background-color: #D989B5;
+  color: #FAC213;
+}
+#abc a:nth-child(5):hover{
+  background-color: #5a7776;
+  color: #FAC213;
+}
