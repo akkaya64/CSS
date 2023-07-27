@@ -1,0 +1,19 @@
+
+* {
+    padding: 20px;
+}
+
+.box1{
+    background-color:blueviolet;
+    width: 500px;
+    border: 10px solid goldenrod;
+    padding: 20px;
+    margin: 30px;
+}
+.box2{
+    background-color: green;
+    width: 500px;
+    border: 5px;
+    padding: 20px;
+    margin: 30px;
+}
